@@ -21,13 +21,13 @@ describe("randomFunctions", function() {
       it("cheers the name", function() {
         assert.equal(randomFunctions.cheer("Tagboard"), "Hooray, Tagboard");
       });
-    })
+    });
 
     describe("no name given", function() {
       it("cheers for beer", function() {
         assert.equal(randomFunctions.cheer(), "Hooray, beer");
       });
-    })
+    });
 
   });
 });
